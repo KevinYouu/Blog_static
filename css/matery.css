@@ -453,10 +453,10 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(3,238,254,0.54) 0%, rgba(3,238,254,0.54) 100%);
     }
     16% {
-        background: rgba(132, 13, 121, 0.75);
-        background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
-        background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
-        background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+        background: rgba(51,255,39,0.47);
+        background: linear-gradient(45deg, rgba(51,255,39,0.47) 0%, rgba(51,255,39,0.47) 100%);
+        background: -moz-linear-gradient(135deg, rgba(51,255,39,0.47) 0%, rgba(51,255,39,0.47) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(51,255,39,0.47) 0%, rgba(51,255,39,0.47) 100%);
     }
     32% {
         background: rgba(239, 83, 80, 0.75);
