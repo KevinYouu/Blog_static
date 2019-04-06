@@ -214,7 +214,7 @@
 </div>
 <script>
 // 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + parseInt(Math.random()*(14)) + '.jpg)');
 </script>
     </div>
 </div>
@@ -511,9 +511,9 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         
                         <div class="card-action article-tags">
                             
-                            <a href="/tags/学习/"><span class="chip bg-color">学习</span></a>
-                            
                             <a href="/tags/我的日志/"><span class="chip bg-color">我的日志</span></a>
+                            
+                            <a href="/tags/学习/"><span class="chip bg-color">学习</span></a>
                             
                         </div>
                         
