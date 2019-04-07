@@ -239,6 +239,13 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
+    <div id="prev-cover" class="left waves-effect carousel-control">
+        <i class="icon fa fa-angle-left"></i>
+    </div>
+    <div id="next-cover" class="right waves-effect carousel-control">
+        <i class="icon fa fa-angle-right"></i>
+    </div>
+    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -297,6 +304,61 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + parseInt(Math.ran
         </div>
     </div>
 
+    
+    
+
+    
+    
+    <div class="carousel-item amber white-text carousel-post bg-cover" style="background-image: url('/images/dn.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div class="title center-align">命令行下载百度云</div>
+                    <div class="description center-align">
+                    
+                        百度云命令行下载需求：
+一个能运行终端的设备（安卓机安装termux,mac和Linux直接打开终端，windws直接下载对应的版本就打开）
+电脑可以略过2-5条，11条
+有一定的Linux基础
+手机安装百度云
+BaiduPCS-Go官方开
+                    
+                    </div>
+                    <div class="cover-btns">
+                        <a href="/2019/04/07/命令行下载百度云/" class="waves-effect waves-light btn" target="_blank">
+                            <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="carousel-item amber white-text carousel-post bg-cover" style="background-image: url('/images/4.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div class="title center-align">配置音乐插件</div>
+                    <div class="description center-align">
+                    
+                        搞了一天，才搞懂这玩意的玩法
+首先是启用插件,将enable的值改为true即可激活音乐插件。
+然后是找音乐的播放链接,在线音乐地址解析。
+之后是专辑的封面链接，这部分坑死我了，找了半天没找到去把网易云的网页代码里找
+接下来就是填写地址，之
+                    
+                    </div>
+                    <div class="cover-btns">
+                        <a href="/2019/04/06/配置音乐插件/" class="waves-effect waves-light btn" target="_blank">
+                            <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 </div>
 
@@ -409,6 +471,43 @@ $(function () {
 
 
 
+
+
+<div class="title"><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;推荐文章</div>
+
+<div class="row">
+
+    
+    
+    <div class="col s12">
+        <div class="post-card" style="background-image: url('/images/dn.png')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/hexo配置/" class="category" target="_blank">hexo配置</a>
+                    
+                    <a href="/categories/hexo配置/Unix/" class="category" target="_blank">Unix</a>
+                    
+                    <a href="/categories/hexo配置/Unix/Linux/" class="category" target="_blank">Linux</a>
+                    
+                </div>
+                <a href="/2019/04/07/命令行下载百度云/" target="_blank">
+                    <h3 class="post-title">命令行下载百度云</h3>
+                </a>
+                <p class="post-description">百度云命令行下载需求：
+一个能运行终端的设备（安卓机安装termux,mac和Linux直接打开终端，windws直接下载对应的版本就打开）
+电脑可以略过2-5条，11条</p>
+                <a href="/2019/04/07/命令行下载百度云/" target="_blank" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
                     </div>
                 </div>
             </div>
@@ -427,8 +526,7 @@ $(function () {
                     <a href="/2019/04/07/命令行下载百度云/">
                         <div class="card-image">
                             
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="命令行下载百度云">
+                            <img src="/images/dn.png" class="responsive-img" alt="命令行下载百度云">
                             
                             <span class="card-title">命令行下载百度云</span>
                         </div>
@@ -499,8 +597,7 @@ BaiduPCS-Go官方开
                     <a href="/2019/04/06/配置音乐插件/">
                         <div class="card-image">
                             
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="配置音乐插件">
+                            <img src="/images/4.png" class="responsive-img" alt="配置音乐插件">
                             
                             <span class="card-title">配置音乐插件</span>
                         </div>
@@ -558,8 +655,7 @@ BaiduPCS-Go官方开
                     <a href="/2019/04/05/部署过程/">
                         <div class="card-image">
                             
-                            
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="部署过程">
+                            <img src="/images/tm.png" class="responsive-img" alt="部署过程">
                             
                             <span class="card-title">部署过程</span>
                         </div>
@@ -604,6 +700,10 @@ BaiduPCS-Go官方开
                             <span class="chip bg-color">学习</span>
                         </a>
                         
+                        <a href="/tags/Photoshop/" target="_blank">
+                            <span class="chip bg-color">Photoshop</span>
+                        </a>
+                        
                     </div>
                     
                 </div>
@@ -614,8 +714,7 @@ BaiduPCS-Go官方开
                     <a href="/2019/04/05/postname/">
                         <div class="card-image">
                             
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="张登友的hexo博客">
+                            <img src="/images/git.png" class="responsive-img" alt="张登友的hexo博客">
                             
                             <span class="card-title">张登友的hexo博客</span>
                         </div>
