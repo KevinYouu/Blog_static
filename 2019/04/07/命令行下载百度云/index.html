@@ -4,12 +4,13 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="配置音乐插件, 张登友,张登友的博客,hexo">
-    <meta name="description" content="搞了一天，才搞懂这玩意的玩法
-首先是启用插件,将enable的值改为true即可激活音乐插件。
-然后是找音乐的播放链接,在线音乐地址解析。
-之后是专辑的封面链接，这部分坑死我了，找了半天没找到去把网易云的网页代码里找
-接下来就是填写地址，之">
+    <meta name="keywords" content="命令行下载百度云, 张登友,张登友的博客,hexo">
+    <meta name="description" content="百度云命令行下载需求：
+一个能运行终端的设备（安卓机安装termux,mac和Linux直接打开终端，windws直接下载对应的版本就打开）
+电脑可以略过2-5条，11条
+有一定的Linux基础
+手机安装百度云
+BaiduPCS-Go官方开">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +18,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>配置音乐插件 | (^_^) 欢迎！</title>
+    <title>命令行下载百度云 | (^_^) 欢迎！</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -207,7 +208,7 @@
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        配置音乐插件
+                        命令行下载百度云
                     </div>
                 </div>
             </div>
@@ -318,12 +319,20 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/我的日志/" target="_blank">
+                                <span class="chip bg-color">我的日志</span>
+                            </a>
+                        
                             <a href="/tags/学习/" target="_blank">
                                 <span class="chip bg-color">学习</span>
                             </a>
                         
-                            <a href="/tags/音乐/" target="_blank">
-                                <span class="chip bg-color">音乐</span>
+                            <a href="/tags/Termux/" target="_blank">
+                                <span class="chip bg-color">Termux</span>
+                            </a>
+                        
+                            <a href="/tags/Linux/" target="_blank">
+                                <span class="chip bg-color">Linux</span>
                             </a>
                         
                     </div>
@@ -338,8 +347,12 @@
                                 hexo配置
                             </a>
                         
-                            <a href="/categories/hexo配置/web前端/" class="post-category" target="_blank">
-                                web前端
+                            <a href="/categories/hexo配置/Unix/" class="post-category" target="_blank">
+                                Unix
+                            </a>
+                        
+                            <a href="/categories/hexo配置/Unix/Linux/" class="post-category" target="_blank">
+                                Linux
                             </a>
                         
                     </div>
@@ -350,7 +363,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-04-06
+                    2019-04-07
                 </div>
 
                 
@@ -366,12 +379,38 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="搞了一天，才搞懂这玩意的玩法"><a href="#搞了一天，才搞懂这玩意的玩法" class="headerlink" title="搞了一天，才搞懂这玩意的玩法"></a>搞了一天，才搞懂这玩意的玩法</h2><ol>
-<li>首先是启用插件,将enable的值改为true即可激活音乐插件。<br><img src="/2019/04/06/配置音乐插件/0.png" alt></li>
-<li>然后是找音乐的播放链接,在线音乐地址解析。<br><img src="/2019/04/06/配置音乐插件/1.png" alt></li>
-<li>之后是专辑的封面链接，这部分坑死我了，找了半天没找到去把网易云的网页代码里找<br><img src="/2019/04/06/配置音乐插件/2.png" alt></li>
-<li>接下来就是填写地址，之前多打了一个逗号，一直报错，找了好久(～﹃～)~zZ<br><img src="/2019/04/06/配置音乐插件/3.png" alt></li>
-<li>完成的效果<br><img src="/2019/04/06/配置音乐插件/4.png" alt><h3 id="PS-坑爹的网易云，我才吃个饭所有的外链播放全部失效，回来一看音乐一个都放不了了，以为代码出错了，一个一个排查，结果没错，找了半天是网易云的在线音乐有个失效机制，害的我又重做，全部换成QQ音乐凸-艹皿艹"><a href="#PS-坑爹的网易云，我才吃个饭所有的外链播放全部失效，回来一看音乐一个都放不了了，以为代码出错了，一个一个排查，结果没错，找了半天是网易云的在线音乐有个失效机制，害的我又重做，全部换成QQ音乐凸-艹皿艹" class="headerlink" title="PS:坑爹的网易云，我才吃个饭所有的外链播放全部失效，回来一看音乐一个都放不了了，以为代码出错了，一个一个排查，结果没错，找了半天是网易云的在线音乐有个失效机制，害的我又重做，全部换成QQ音乐凸(艹皿艹)"></a>PS:坑爹的网易云，我才吃个饭所有的外链播放全部失效，回来一看音乐一个都放不了了，以为代码出错了，一个一个排查，结果没错，找了半天是网易云的在线音乐有个失效机制，害的我又重做，全部换成QQ音乐凸(艹皿艹)</h3></li>
+                <h2 id="百度云命令行下载"><a href="#百度云命令行下载" class="headerlink" title="百度云命令行下载"></a>百度云命令行下载</h2><h4 id="需求："><a href="#需求：" class="headerlink" title="需求："></a>需求：</h4><ul>
+<li>一个能运行终端的设备（安卓机安装termux,mac和Linux直接打开终端，windws直接下载对应的版本就打开）</li>
+<li>电脑可以略过2-5条，11条</li>
+<li>有一定的Linux基础</li>
+<li>手机安装百度云</li>
+<li><a href="https://github.com/iikira/BaiduPCS-Go" target="_blank" rel="noopener">BaiduPCS-Go官方开源地址</a></li>
+</ul>
+<ol>
+<li>电脑直接去开源地址下载，安卓手机先下载termux并安装<h4 id="电脑端下载完成后打开"><a href="#电脑端下载完成后打开" class="headerlink" title="电脑端下载完成后打开"></a>电脑端下载完成后打开</h4><img src="/2019/04/07/命令行下载百度云/dn.png" alt></li>
+</ol>
+<h4 id="手机端看这里"><a href="#手机端看这里" class="headerlink" title="手机端看这里"></a>手机端看这里</h4><ol start="2">
+<li>安卓机要先授予存储权限，也就是执行这条 (termux-setup-storage)</li>
+<li>（安卓机执行）添加软件源输入： echo “deb [trusted=yes] <a href="http://termux.iikira.com" target="_blank" rel="noopener">http://termux.iikira.com</a> stable main” &gt;&gt; /data/data/com.termux/files/usr/etc/apt/sources.list</li>
+<li>更新软件源，也就是执行:(apt update或者pkg update)</li>
+<li>安装baidupcs-go，执行(apt install baidupcs-go)</li>
+</ol>
+<h4 id="这里开始电脑和手机基本过程大同小异"><a href="#这里开始电脑和手机基本过程大同小异" class="headerlink" title="这里开始电脑和手机基本过程大同小异"></a>这里开始电脑和手机基本过程大同小异</h4><ol start="6">
+<li>运行(BaiduPCS-Go)<br><img src="/2019/04/07/命令行下载百度云/login.jpg" alt></li>
+<li>登陆(输入login，回车)</li>
+<li>按要求输入账号然后回车，然后输入密码，PS：输入的时候密码是不显示的，不要认为是手机坏了</li>
+<li>如果要验证码就长按复制验证码图片链接，然后粘贴到浏览器打开，如果失败就重新来一次，当然如果使用短信验证码更简单<br><img src="/2019/04/07/命令行下载百度云/login2.jpg" alt></li>
+<li>登陆成功之后，配置一下appid,执行(config set –appid 265486)</li>
+<li>设置下载文件保存的位置，例如存到手机内存的下载文件夹下(config set –savedir ‘/sdcard/下载’)，下载完就可以直接在这里找到</li>
+<li>设置下载的线程数，默认100，线程越大下载数越快，当然也越大的几率被百度拉黑，范围在50到500之间(config set –max_parallel 300)</li>
+<li>同时下载的数量，数字就是同时下载的数量(config set –max_download_load 3)</li>
+<li>上面做完之后，把termux关闭，点状态栏那个exit按钮，然后进入浏览器，打开百度云官网 <a href="http://pan.baidu.com" target="_blank" rel="noopener">http://pan.baidu.com</a> 登录百度云，登完后再复制下面这个网址，粘贴到刚刚登完账号的浏览器并访问。 <a href="http://pcs.baidu.com/rest/2.0/pcs/file?app_id=265486&amp;method=list&amp;path=%2F" target="_blank" rel="noopener">http://pcs.baidu.com/rest/2.0/pcs/file?app_id=265486&amp;method=list&amp;path=%2F</a></li>
+<li>访问会出现一串看不懂的东西，然后打开手机百度云，不出意外你的百度云的 /我的应用数据 下面多出了个 baidu_shurufa文件夹（没有就创建一个）。如图：</li>
+<li>在百度云APP里把想要下载的文件放到 /我的应用数据/baidu_shurufa 里面<br>，例如我想下载爱奇艺 v9.9.8 Play无广告版<br><img src="/2019/04/07/命令行下载百度云/xz.jpg" alt></li>
+<li>接下来就是正题了，准备工作完成了，此时打开termux，重新启动 BaiduPCS-Go，执行(BaiduPCS-Go)</li>
+<li>首先切换到要下载文件夹下执行 (cd /apps/baidu_shurufa)</li>
+<li>我要下载的文件叫爱奇艺 v9.9.8 Play无广告版，那么久输入： d &nbsp;’爱奇艺 v9.9.8 Play无广告版.apk’，注意d后面还有空格，还有文件的后缀名，回车久OK了<br><img src="/2019/04/07/命令行下载百度云/xz3.jpg" alt></li>
+<li>下载速度已经达到宽带的最大速度，有问题可以点击首页的QQ问我</li>
 </ol>
 
             </div>
@@ -396,7 +435,7 @@
                     </span>
                     <a href="http://yoursite.com" class="b-link-green">(^_^) 欢迎！</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/04/06/配置音乐插件/" class="b-link-green">配置音乐插件</a>
+                    <a href="/2019/04/07/命令行下载百度云/" class="b-link-green">命令行下载百度云</a>
                 </p>
             </div>
         </div>
@@ -419,7 +458,8 @@
         
         <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/04/07/命令行下载百度云/">
                     <div class="card-image">
@@ -438,9 +478,9 @@
 手机安装百度云
 BaiduPCS-Go官方开</div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -461,6 +501,7 @@ BaiduPCS-Go官方开</div>
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -491,36 +532,35 @@ BaiduPCS-Go官方开</div>
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/04/05/部署过程/">
+                <a href="/2019/04/06/配置音乐插件/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="部署过程">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="配置音乐插件">
                         
-                        <span class="card-title">部署过程</span>
+                        <span class="card-title">配置音乐插件</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary block-with-text">使用mac终端部署（Linux同理）
-第一步当然是使用shell将hexo部署到本地，各种详细过程暂时不详细描述，有时间再写一个详细的教程
-配置音乐
-用PS搞个头像，哈哈
-
-</div>
+                    <div class="summary block-with-text">搞了一天，才搞懂这玩意的玩法
+首先是启用插件,将enable的值改为true即可激活音乐插件。
+然后是找音乐的播放链接,在线音乐地址解析。
+之后是专辑的封面链接，这部分坑死我了，找了半天没找到去把网易云的网页代码里找
+接下来就是填写地址，之</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-06
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/web前端/" class="post-category" target="_blank">
-                                    web前端
+                            <a href="/categories/hexo配置/" class="post-category" target="_blank">
+                                    hexo配置
                                 </a>
                             
-                            <a href="/categories/web前端/Unix/" class="post-category" target="_blank">
-                                    Unix
+                            <a href="/categories/hexo配置/web前端/" class="post-category" target="_blank">
+                                    web前端
                                 </a>
                             
                             
@@ -532,6 +572,10 @@ BaiduPCS-Go官方开</div>
                     
                     <a href="/tags/学习/" target="_blank">
                         <span class="chip bg-color">学习</span>
+                    </a>
+                    
+                    <a href="/tags/音乐/" target="_blank">
+                        <span class="chip bg-color">音乐</span>
                     </a>
                     
                 </div>
